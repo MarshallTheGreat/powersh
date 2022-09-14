@@ -1,0 +1,22 @@
+.#
+
+'-' =  a parameter
+'<>' = an argument
+'[ ]' = accepts multiple values
+
+#Aliases
+  - Get-Alias: gets all aliases in the current session
+  - New-Alias: creates a new alias
+  - Set-Alias: Creates or changes an alias
+    [Removing an Alias]
+      #removing alias called 'dora'
+       - remove-item alias:dora\
+       
+#Variables
+  - $variable = "<value>"
+  - $variable1 = "'`$variable' is this"
+  - $variable2 = '$variable is this'
+  
+  - *** $args = array that contains undeclared parameters/arguments passed to a function
+  - *** $input = array that contains all enumerated input passed to a function
+      [[ALL ENVIRONMENTAL VARIABLES HAVE THE PREFIX '$env:']]
